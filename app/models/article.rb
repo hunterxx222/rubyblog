@@ -3,8 +3,7 @@ class Article < ApplicationRecord
   	validates :title, presence: true,
                     length: { minimum: 5 }
 
-     def self.search(search)
-	  where("title ILIKE ?", "%#{search}%") 
-	  where("body ILIKE ?", "%#{search}%")
+    def self.search(search)
+	  where("title ILIKE ? OR body ILIKE ?", "%#{search}%", "%#{search}%")
 	end
 end
