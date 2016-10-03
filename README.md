@@ -1,10 +1,5 @@
 # Pre-work - *Toan's Ruby Blog*
 
-> HINT: Please
-> - include this README.md in your project and fill out the information. 
-> - remove the `README.rdoc` file that Rails generates. 
-> - remove all the HINT blocks in this file.
-
 Toan's Ruby Blog is a Ruby on Rails blog application.
 
 Submitted by: Toan Ngo
@@ -41,7 +36,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Video Walkthrough](http://i.giphy.com/3oz8xUs9JelTxw8Eak.gif)
+![Video Walkthrough](walkthrough.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -49,11 +44,13 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
-Immense challenge
+I've a lot of challenges building the app, but then I realize that with my dedication, spirit, immense effort, hours of work, helps from amazing classmates and instructors at CoderSchool, Larry Pages & Sergey Brin (for creating Google), I'm able to finish the homework. 
+
+It feels great after finishing those, and I'm excited to do more hours finishing the next homework. Thanks CoderSchool! 
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2016] [Toan Ngo]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
