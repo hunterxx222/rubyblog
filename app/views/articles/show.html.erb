@@ -1,15 +1,13 @@
-<p id="notice"><%= notice %></p>
-
 <p>
   <strong>Title:</strong>
   <%= @article.title %>
 </p>
-
+ 
 <p>
-  <strong>Body:</strong>
+  <strong>Text:</strong>
   <%= @article.body %>
 </p>
-
+ 
 <h2>Comments</h2>
 <% @article.comments.each do |comment| %>
   <p>
@@ -22,9 +20,9 @@
     <%= comment.body %>
   </p>
 <% end %>
-
+ 
 <h2>Add a comment:</h2>
-<%= form_for([@article_path, @article.comments.build]) do |f| %>
+<%= form_for([@article, @article.comments.build]) do |f| %>
   <p>
     <%= f.label :commenter %><br>
     <%= f.text_field :commenter %>
@@ -37,8 +35,6 @@
     <%= f.submit %>
   </p>
 <% end %>
-
-
  
 <%= link_to 'Edit', edit_article_path(@article) %> |
 <%= link_to 'Back', articles_path %>
